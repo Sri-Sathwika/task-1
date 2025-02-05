@@ -1,0 +1,260 @@
+body{
+    background-color: rgb(198, 230, 243);
+    margin: 0;
+}
+nav{
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    width: 100%;
+    color: rgb(6, 6, 120);
+    display: flex;
+    background-color: skyblue;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a{
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    color: rgb(6, 6, 120);
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.nav-text{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.hero{
+    border-color: gray;
+    border-style: solid;
+    border-width: 0.5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.message{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.browse-button{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    color: white;
+    background-color: blue;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity;
+}
+
+.button:hover{
+    opacity:0.7;
+}
+
+.featured-books{
+    border-color: gray;
+    border-style: solid;
+    border-width: 0.5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.featured-books{
+    display: inline-block;
+}
+
+.book-cover{
+    width: 250px;
+    margin-bottom: 5px;
+    transition: box-shadow 0.15s;
+}
+
+.book-cover:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3) ;
+}
+
+.book-name{
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.book-author{
+    margin: 0;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description{
+    width: 300px;
+    margin-right: 10px;
+}
+
+.book-1,.book-2,.book-3,.book-4{
+    display: inline-block;
+}
+
+.book-2{
+    vertical-align: top;
+}
+
+.book-1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Categories{
+    border-color: gray;
+    border-style: solid;
+    border-width: 0.5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.Userreviews{
+    border-color: gray;
+    border-style: solid;
+    border-width: 0.5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.review-intro{
+    border-color: gray;
+    border-style: dashed;
+    border-width: 0.5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.review-1{
+    border-color: gray;
+    border-style: dotted;
+    border-width: 0.5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.latest-releases,.best-selling-books{
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+}
+
+.latest-releases{
+    border-color: gray;
+    border-style: dotted;
+    border-width: 0.5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.book-1,.book-2,.book-3,.book-4{
+    display: grid;
+    grid-template-rows: 370px 70px 20px;
+    margin-left: 105px;
+}
+
+.cat{
+    display: grid;
+    grid-template-columns:300px 300px 300px 300px ;
+    margin-left: 175px;
+}
+
+.cat-1,.cat-2,.cat-3,.cat-4{
+    display: grid;
+    grid-template-rows: 170px 20px;
+}
+
+.submit{
+    margin-top: 10px;
+    padding: 7px 7px 7px 7px;
+    background-color:rgb(6, 6, 120);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.name{
+    margin-right: 20px;
+    height: 30px;
+    width: 500px;
+}
+
+.contact{
+    padding:10px 10px 10px 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+}
+
+.contact:hover{
+    opacity:0.7;
+}
